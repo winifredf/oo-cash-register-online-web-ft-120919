@@ -40,6 +40,7 @@ class CashRegister
       cash_register.add_item("tomato", 1.76)
       cash_register.void_last_transaction
       @total - last_transaction_amount
+      @total
   end
   
 end
